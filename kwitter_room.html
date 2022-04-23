@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cat Box</title>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@279&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+
+<body>
+
+
+	<div class="container">
+		<br>
+		<button id="logout" onclick="logout();" style="width: 10%;
+		height: 40px;
+		border-radius: 5px;
+		background-color: #2a3033;
+		color: #8bb16b;
+		border-color: #2a3033;
+		border-style: dotted;
+		size: 35px;
+		font-size: 22px;
+		font-family: 'Amatic SC', cursive;
+		font-weight: 900;
+		letter-spacing: 2px;">Logout</button>
+
+		<center>
+			<h1 class="header">
+				Cat Box
+				<sup>
+					<img src="logo.png">
+				</sup>
+			</h1>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div" id="div2">
+				<br>
+				<h3 id="user_name" class="color_white" style="   font-family: 'Azeret Mono', monospace;
+				font-size: 23px;
+				font-weight: bold;
+				color: #598f2c;"> ></h3>
+
+				<div class="form-group input_div_room_page">
+					<label id="label2">Join Any Box You Feel Makes You Confy</label>
+					<br>
+					<br>
+					<label id="label3">Or you can make one~</label>
+					<br>
+					<br>
+					<input type="text" id="room_name" class="form-control" placeholder="#Box Name" style="font-family: 'Annie Use Your Telescope', cursive;
+
+					font-size: 25px;
+					color: #999999;">
+				</div>
+
+				<button id="button" onclick="addRoom();" class="btn btn-link">#Add A Box</button>
+				<br>
+				<br>
+			</div>
+			<h3 class="color_white" style="color: #2a3033;
+				font-family: 'Josefin Slab', serif;
+				letter-spacing: 1px;
+				font-weight: 900;
+				font-size: 30px;
+				">#BoxesHereAndThere</h3>
+
+			<div id="output"></div>
+
+		</center>
+	</div>
+
+
+	<script src="kwitter_room.js"></script>
+</body>
+
+</html>

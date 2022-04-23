@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp6187849.png);
+}
+
+.header {
+    color: #2a3033;
+    font-family: YellowTail, cursive;
+    font-size: 70px;
+    letter-spacing: 0px;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+#button {
+
+    margin-top: 10px;
+    width: 30%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #2a3033;
+    color: #8bb16b;
+    border-color: #2a3033;
+    border-style: dotted;
+    size: 40px;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    letter-spacing: 5px;
+
+}
+
+.header img {
+    width: 80px;
+}
+
+#div2 {
+    background: #c6e3ad;
+    float: none;
+    border-radius: 15px;
+    width: 650px;
+    height: 300px;
+
+}
+
+
+#label2 {
+
+    font-family: 'Architects Daughter', cursive;
+    color: #8bb16b;
+    font-size: 22px;
+
+}
+
+#label3 {
+
+    font-family: 'Autour One', cursive;
+    color: #8bb16b
+}
+
+
+.room_name {
+    cursor: pointer;
+    font-size: 23px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    color: #8bb16b8f;
+}
+
+
+#logout {
+    font-size: 20px;
+    float: right;
+}
+
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background: #c6e3ad86;
+    border-radius: 15px;
+
+}
+
+.input_div_message_page {
+ margin-left: 450px;
+    position: fixed;
+    bottom: 0px;
+    width: 50%;
+}
+#input1 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 25px;
+    margin-bottom: 7px;
+    color: #999999;
+
+}
+#button2 {
+margin-top: 6px;
+width: 50%;
+border-radius: 5px;
+background-color: #8bb16b;
+color: #c6e3ad;
+border-color: #8bb16b;
+border-style: dotted;
+height: 32px;
+font-size: 20px;
+font-family: 'Josefin Slab', serif;
+letter-spacing: 1px;
+font-weight: 700;
+
+}
